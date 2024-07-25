@@ -4,6 +4,7 @@
 #numero dado.
 #se volvio al anterior programador
 #nueva actualizacion
+#nueva mejora
 
 def prime_number(n):
     numbers = list(((filter(lambda x:n%x==0, range(1,n+1)))));
