@@ -3,6 +3,7 @@
 #creando una version que permita obtener los numeros primos hasta el
 #numero dado.
 #cambio  introducido por otro programador
+#nueva actualizacion
 
 def prime_number(n):
     numbers = list(((filter(lambda x:n%x==0, range(1,n+1)))));
