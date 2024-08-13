@@ -1,16 +1,12 @@
-#Este es un programa para crear numeros primos 
-# esta es la version mejorada
-#creando una version que permita obtener los numeros primos hasta el
-#numero dado.
-#se volvio al anterior programador
-#nueva actualizacion
-#nueva mejora
+#This program generates prime numbers from 2 up to the specified number. 
+#If the number is not a prime, it won't be displayed
+#For example: prime_numbers(15) = [2,3,5,7,11,13]
 
-def prime_number(n):
-    numbers = list(((filter(lambda x:n%x==0, range(1,n+1)))));
+def prime_numbers(n):
+    numbers = list(((filter(lambda x:n%x==0, range(2,n+1)))));
     return numbers;
         
-print(prime_number(30));
+print(prime_numbers(30));
 
 
     
